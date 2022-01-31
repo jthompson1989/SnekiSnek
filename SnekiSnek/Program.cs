@@ -3,6 +3,7 @@ using System.Media;
 
 Console.BackgroundColor = ConsoleColor.Black;
 Console.ForegroundColor = ConsoleColor.Green;
+Console.Title = "Sneki Snek Time";
 
 Console.WriteLine("Snek Time");
 Console.WriteLine("       ---_ ......._-_--.");
