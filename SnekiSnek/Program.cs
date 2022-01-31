@@ -22,9 +22,9 @@ Console.WriteLine(@"      / ^|            \ _ _ \* ");
 Console.WriteLine(@"     '  `             \ _ _ \   ");
 Console.WriteLine(@"                       \_");
 
-Console.WriteLine("Ready?");
+Console.Write("Ready?");
 string result = Console.ReadLine();
-if(result.ToUpper() != "Y" || result.ToUpper() != "YES")
+if(result.ToUpper() == "N" || result.ToUpper() == "NO")
 {
     for (var x = 0; x < 10; x++) {
         Console.WriteLine("TOO BAD");
